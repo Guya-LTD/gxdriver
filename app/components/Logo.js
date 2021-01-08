@@ -6,12 +6,11 @@ import {
   Image
  } from "react-native";
 
-  export default class Logo extends React.Component {
+export default class Logo extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Image style={{width: 130, height: 130}}
-          source={require('../images/logo-color.png')}/>
+        
         <Text style={styles.logoText}>ShareLocation</Text>
       </View>
     );
